@@ -1,0 +1,34 @@
+*{
+    font-family: "Inter", sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+table, td, th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 4px;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+}
+#heading{
+    color: white;
+    background-color: black;
+    padding: 10px 25px;
+}
+#content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 25px;
+}
+#create-row-btn{
+    padding: 5px 40px;
+    color: white;
+    background-color: black;
+}
+
